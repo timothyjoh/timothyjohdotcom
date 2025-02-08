@@ -3,7 +3,7 @@
 import { id, i, init, type InstaQLEntity } from '@instantdb/react'
 
 // ID for app: Tims astro kickstart
-const APP_ID = import.meta.env.INSTANTDB_APP_ID
+const APP_ID = import.meta.env.PUBLIC_INSTANTDB_APP_ID
 
 // Optional: Declare your schema!
 const schema = i.schema({
