@@ -14,7 +14,7 @@ user.set({ name: fakeName() });
 function CustomCursor({ color, name }: { color?: string; name: string }) {
 	return (
 		<span
-			className="border-2 bg-white/30 px-3 text-sm shadow-lg backdrop-blur-md"
+			className="border-2 bg-white/30 px-3 text-sm shadow-lg backdrop-blur-md font-mono"
 			style={{
 				borderColor: color ?? "gray",
 			}}

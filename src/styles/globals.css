@@ -85,7 +85,6 @@ body {
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-transform: uppercase;
 	margin: 0;
 	font-family: ballinger-mono, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
 		sans-serif;
