@@ -1,5 +1,5 @@
 ---
-import CursorBattle from '@/components/CursorBattle'
+import {CursorBattle} from '@/components/CursorBattle'
 import Welcome from '../components/Welcome.astro'
 import Layout from '../layouts/Layout.astro'
 import { Tim } from '@/components/Tim'
@@ -10,7 +10,8 @@ import { Tim } from '@/components/Tim'
 
 <Layout>
 	<div class="static">
-		<CursorBattle client:only />
-		<Tim />
+		<CursorBattle client:only>
+			<Tim />
+		</CursorBattle>
 	</div>
 </Layout>

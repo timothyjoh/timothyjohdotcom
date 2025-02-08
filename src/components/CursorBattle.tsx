@@ -38,11 +38,10 @@ export const CursorBattle = ({ children }: { children: React.ReactNode }) => {
 			userCursorColor={fakeColor()}
 			className={cursorsClassNames}
 		>
-			{$user.name}
+			{/* {$user.name} */}
 			{children}
 		</Cursors>
 	);
 };
 
-const cursorsClassNames =
-	"absolute top-0 right-0 h-screen z-50 font-mono text-sm text-gray-800 border border-red-200 border-4";
+const cursorsClassNames = "absolute flex flex-end top-0 right-0 h-screen z-50";
