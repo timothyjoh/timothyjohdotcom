@@ -2,6 +2,8 @@
 import {CursorBattle} from '@/components/CursorBattle'
 import Welcome from '../components/Welcome.astro'
 import Layout from '../layouts/Layout.astro'
+import { SplashCursor } from "@/components/ui/splash-cursor"
+
 import { Tim } from '@/components/Tim'
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
@@ -9,6 +11,7 @@ import { Tim } from '@/components/Tim'
 ---
 
 <Layout>
+	<SplashCursor />
 	<div class="static">
 		<CursorBattle client:only>
 			<Tim />
