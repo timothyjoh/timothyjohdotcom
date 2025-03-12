@@ -42,4 +42,4 @@ export const CursorBattle = ({ children }: { children: React.ReactNode }) => {
   )
 }
 
-const cursorsClassNames = 'absolute flex flex-end top-0 right-0 z-50'
+const cursorsClassNames = 'absolute top-0 right-0 z-50'
